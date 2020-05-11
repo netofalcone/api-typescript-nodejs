@@ -1,4 +1,5 @@
 export class SignUpController {
+  // tipo any, e retona any
   handle (httpRequest: any): any {
     if (!httpRequest.body.name) {
       return {
